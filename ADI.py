@@ -150,7 +150,7 @@ while iter < iterations:
     z.append(temp)
 xcells = np.array([(2*i+1)*dx/2 for i in range(rows)])
 ycells = np.array([(2*i+1)*dy/2 for i in range(cols)])
-plt.contourf(ycells, xcells,temp,200,cmap=plt.cm.jet)
+plt.contourf(ycells, xcells,temp,30,cmap=plt.cm.jet)
 plt.gca().invert_yaxis()
 plt.show()
 
